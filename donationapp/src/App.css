@@ -1,0 +1,103 @@
+/* donation-page.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #1a1a1a; /* Dark header background color */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* Main content styles */
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Donation section styles */
+.donation-section {
+  flex: 1;
+  background-color: #292929; /* Dark section background color */
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffffff;
+}
+
+button {
+  background-color: #ff5722; /* Orange button color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f44336; /* Darker orange on hover */
+}
+
+/* Meal images styles */
+.meal-images {
+  flex: 1;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 30%;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1a1a1a; /* Dark footer background color */
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  font-size: 0.8rem;
+}
