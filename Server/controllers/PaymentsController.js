@@ -49,7 +49,7 @@ export const paymentVerification = async (req, res) => {
         razorpay_signature,
       });
       res.redirect(
-        `https://65002b702ec0d940cbcd02c0--magnificent-alpaca-99608c.netlify.app/paymentsuccess?reference=${razorpay_payment_id}&donationAmount=${donationAmount}`
+        `https://65055927ba445e6fe83ccb8e--remarkable-raindrop-8b5162.netlify.app/paymentsuccess?reference=${razorpay_payment_id}&donationAmount=${donationAmount}`
       );
     } else {
       res.status(400).json({
