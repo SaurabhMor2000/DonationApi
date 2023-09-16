@@ -6,7 +6,7 @@ import cors from "cors";
 config({path : "./config/config.env"});
 
  export const app = express();
- const allowedOrigins = ['https://65002b702ec0d940cbcd02c0--magnificent-alpaca-99608c.netlify.app/'];
+ const allowedOrigins = ['https://65055927ba445e6fe83ccb8e--remarkable-raindrop-8b5162.netlify.app'];
 
  app.use(
    cors({
